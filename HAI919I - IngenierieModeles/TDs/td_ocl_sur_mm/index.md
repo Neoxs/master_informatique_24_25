@@ -20,7 +20,8 @@ Context Classifier
     inv abstractBehavioralFeatures()->ForAll(abf: BehavioralFeature | obf.method->isEmpty())
 ```
 
-```Context BehavioralFeature
+```ocl
+Context BehavioralFeature
     inv isAbstract implies method->isEmpty()
 ```
 
