@@ -1,0 +1,22 @@
+# Ignore everything
+*
+
+# Allow only specific file types
+!*.md
+!*.mdx
+!*.pdf
+!*.jpg
+!*.jpeg
+!*.png
+!*.gif
+!*.svg
+
+# Allow the .gitignore file itself
+!.gitignore
+
+# Allow directories to be tracked (for images within folders)
+!*/
+
+# Optional: Ignore generated files from common platforms/tools
+.DS_Store
+Thumbs.db
