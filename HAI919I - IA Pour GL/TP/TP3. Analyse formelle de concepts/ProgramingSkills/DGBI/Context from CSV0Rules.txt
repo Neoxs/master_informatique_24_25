@@ -1,0 +1,3 @@
+<0> C#,SQL,HTML/CSS => Python,JavaScript,PHP,Kotlin,Swift,Rust,Docker,Node.js
+<0> Python,C#,SQL,Rust,Docker,Node.js => JavaScript,PHP,Kotlin,HTML/CSS,Swift
+<0> Python,JavaScript,C#,PHP,Kotlin,HTML/CSS,Docker,Node.js => SQL,Swift,Rust

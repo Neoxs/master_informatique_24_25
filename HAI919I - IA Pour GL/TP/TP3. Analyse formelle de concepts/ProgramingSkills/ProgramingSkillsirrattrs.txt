@@ -1,0 +1,9 @@
+Python
+C#
+Node.js
+Docker
+HTML/CSS
+JavaScript
+SQL
+Kotlin
+Swift

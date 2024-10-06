@@ -1,0 +1,54 @@
+## the Concept Lattice
+java -jar fca4j-cli-0.4.4.jar LATTICE jeux_de_donnee.csv -i CSV -s SEMICOLON -g ProgramingSkills/Lattice/ProgramingSkillsLattice.dot
+dot -Tpdf ProgramingSkills/Lattice/ProgramingSkillsLattice.dot -o ProgramingSkills/Lattice/ProgramingSkillsLattice.pdf
+dot -Tpng ProgramingSkills/Lattice/ProgramingSkillsLattice.dot -o ProgramingSkills/Lattice/ProgramingSkills.png
+
+
+## the Iceberg50 Lattice
+java -jar fca4j-cli-0.4.4.jar LATTICE -a ICEBERG jeux_de_donnee.csv -p 50 -i CSV -s SEMICOLON -g ProgramingSkills/Iceberg50/ProgramingSkillsiceberg.dot
+dot -Tpdf ProgramingSkills/Iceberg50/ProgramingSkillsiceberg.dot -o ProgramingSkills/Iceberg50/ProgramingSkillsiceberg.pdf
+dot -Tpng  ProgramingSkills/Iceberg50/ProgramingSkillsiceberg.dot -o ProgramingSkills/Iceberg50/ProgramingSkillsiceberg.png
+
+
+
+## the AOCposet
+java -jar fca4j-cli-0.4.4.jar AOCPOSET jeux_de_donnee.csv -i CSV -s SEMICOLON -g ProgramingSkills/AOCposet/ProgramingSkillsaocposet.dot
+dot -Tpdf ProgramingSkills/AOCposet/ProgramingSkillsaocposet.dot -o ProgramingSkills/AOCposet/ProgramingSkillsaocposet.pdf
+dot -Tpng ProgramingSkills/AOCposet/ProgramingSkillsaocposet.dot -o ProgramingSkills/AOCposet/ProgramingSkillsaocposet.png
+
+
+
+## DGBI
+java -jar fca4j-cli-0.4.4.jar RULEBASIS jeux_de_donnee.csv -i CSV -s SEMICOLON -folder ProgramingSkills/DGBI/
+
+
+
+## the irreducible objects
+java -jar fca4j-cli-0.4.4.jar IRREDUCIBLE jeux_de_donnee.csv -lobj -u -i CSV -s SEMICOLON ProgramingSkills/ProgramingSkillsirrobjs.txt
+
+
+
+## the irreducible attributes
+java -jar fca4j-cli-0.4.4.jar IRREDUCIBLE jeux_de_donnee.csv -lattr -u -i CSV -s SEMICOLON ProgramingSkills/ProgramingSkillsirrattrs.txt
+
+
+
+## clarify
+java -jar fca4j-cli-0.4.4.jar CLARIFY jeux_de_donnee.csv -xa -xo -i CSV -s SEMICOLON ProgramingSkills/ProgramingSkillsclarified.csv
+
+
+
+## reduce
+java -jar fca4j-cli-0.4.4.jar REDUCE ProgramingSkills/ProgramingSkillsclarified.csv -xa -xo -u -i CSV -s SEMICOLON ProgramingSkills/ProgramingSkillsclarifiedreduced.csv
+
+
+## clarified reduced lattice
+java -jar fca4j-cli-0.4.4.jar LATTICE ProgramingSkills/ProgramingSkillsclarifiedreduced.csv -i CSV -s SEMICOLON -g ProgramingSkills/Reduced/Lattice/ProgramingSkillsclarifiedreduced.dot
+dot -Tpdf ProgramingSkills/Reduced/Lattice/ProgramingSkillsclarifiedreduced.dot -o ProgramingSkills/Reduced/Lattice/ProgramingSkillsclarifiedreduced.pdf
+dot -Tpng ProgramingSkills/Reduced/Lattice/ProgramingSkillsclarifiedreduced.dot -o ProgramingSkills/Reduced/Lattice/ProgramingSkillsclarifiedreduced.png
+
+
+## clarified reduced AOCposet
+java -jar fca4j-cli-0.4.4.jar AOCPOSET ProgramingSkills/ProgramingSkillsclarifiedreduced.csv -i CSV -s SEMICOLON -g ProgramingSkills/Reduced/AOCposet/ProgramingSkillsclarifiedreduced.dot
+dot -Tpdf ProgramingSkills/Reduced/AOCposet/ProgramingSkillsclarifiedreduced.dot -o ProgramingSkills/Reduced/AOCposet/ProgramingSkillsclarifiedreduced.pdf
+dot -Tpng ProgramingSkills/Reduced/AOCposet/ProgramingSkillsclarifiedreduced.dot -o ProgramingSkills/Reduced/AOCposet/ProgramingSkillsclarifiedreduced.png

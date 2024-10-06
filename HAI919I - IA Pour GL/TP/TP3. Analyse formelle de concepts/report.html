@@ -1,0 +1,339 @@
+<!DOCTYPE html><html><head>
+      <title>report</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////Users/neoxsbibozero0/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.8.14/crossnote/dependencies/katex/katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="formal-concept-analysis-fca-on-the-programming-skills-dataset">Formal Concept Analysis (FCA) on the Programming Skills Dataset </h1>
+<h2 id="table-of-contents">Table of Contents </h2>
+<ul>
+<li><a href="#formal-concept-analysis-fca-on-the-programming-skills-dataset">Formal Concept Analysis (FCA) on the Programming Skills Dataset</a>
+<ul>
+<li><a href="#table-of-contents">Table of Contents</a></li>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#choice-of-data">Choice of data</a></li>
+<li><a href="#dataset">Dataset</a></li>
+<li><a href="#analysis-methods">Analysis Methods</a>
+<ul>
+<li><a href="#1-concept-lattice">1. Concept Lattice</a></li>
+<li><a href="#2-iceberg-lattice-with-a-minimum-support-of-50">2. Iceberg Lattice with a Minimum Support of 50%</a></li>
+<li><a href="#3-aoc-poset-attribute-object-chain-poset">3. AOC Poset (Attribute-Object Chain Poset)</a></li>
+<li><a href="#4-dgbi-rule-basis">4. DGBI Rule Basis</a>
+<ul>
+<li><a href="#explanation-of-dgbi-rules-results">Explanation of DGBI Rules Results</a></li>
+</ul>
+</li>
+<li><a href="#5-irreducible-objects-and-attributes">5. Irreducible Objects and Attributes</a></li>
+<li><a href="#6-clarification-and-reduction">6. Clarification and Reduction</a></li>
+<li><a href="#7-clarified-and-reduced-lattice-and-aoc-poset">7. Clarified and Reduced Lattice and AOC Poset</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="introduction">Introduction </h2>
+<p>In this report, we explore the application of Formal Concept Analysis (FCA) to a dataset of programming skills. Programming skills are chosen for this example because they represent a complex but structured set of knowledge domains with distinct relationships. These relationships can be between different programming languages, frameworks, tools, or libraries. FCA helps us reveal hidden patterns, commonalities, and hierarchies among these skills, which can be particularly useful for a range of applications, such as curriculum design, skill gap analysis, or recommendation systems in tech education platforms.</p>
+<h2 id="choice-of-data">Choice of data </h2>
+<ol>
+<li>
+<p><strong>Multi-Dimensional Relationships</strong>: Programming skills do not exist in isolation. Often, mastering one skill may imply familiarity with related tools or technologies. For instance, knowledge of web development might suggest proficiency in HTML, CSS, and JavaScript, while back-end programming could imply skills in databases and server-side languages. FCA allows us to model these relationships, making it easier to explore dependencies and intersections between skills.</p>
+</li>
+<li>
+<p><strong>Real-World Relevance</strong>: Understanding the structure of programming skills is directly applicable to real-world scenarios like job recruitment, upskilling programs, and educational content creation. For example, identifying core skills and their extensions can inform better decision-making when designing training programs or job qualifications.</p>
+</li>
+<li>
+<p><strong>Data Complexity</strong>: Programming skills data offers a challenging and interesting dataset for FCA due to its variety, granularity, and hierarchy. This makes it an ideal candidate to showcase the effectiveness of FCA in dealing with real-world, multi-faceted data.</p>
+</li>
+<li>
+<p><strong>Skill Progression and Implication</strong>: In the tech industry, skills are often acquired progressively. FCA's ability to generate rules and implications between skills provides insights into how mastering one skill might lead to proficiency in another. For example, if a person is proficient in JavaScript, it could imply that they have likely encountered libraries such as React or Vue.js. FCA can help generate these rules automatically from the dataset.</p>
+</li>
+</ol>
+<h2 id="dataset">Dataset </h2>
+<p>Before diving into the analysis, let's examine the dataset we're working with. The following table represents the programming skills of various individuals. Each row corresponds to a person, and each column represents a specific programming language or technology. A value of 1 indicates proficiency in the skill, while 0 indicates a lack of proficiency.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Python</th>
+<th>JavaScript</th>
+<th>C#</th>
+<th>PHP</th>
+<th>Kotlin</th>
+<th>SQL</th>
+<th>HTML/CSS</th>
+<th>Swift</th>
+<th>Rust</th>
+<th>Docker</th>
+<th>Node.js</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>David</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Mickael</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Sarah</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>James</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Emma</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Oliver</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Sophia</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Lucas</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Grace</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Ethan</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p>This dataset provides a snapshot of the programming skills distribution among a group of individuals.</p>
+<p>The Formal Concept Analysis we'll perform in the following sections will help us uncover more complex patterns and relationships within this dataset.</p>
+<h2 id="analysis-methods">Analysis Methods </h2>
+<h3 id="1-concept-lattice">1. Concept Lattice </h3>
+<p>We begin by constructing a concept lattice using our programming skills dataset. The concept lattice visually represents the relationships between different skills and their groupings.</p>
+<p>The following command was used to generate the concept lattice:</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token function">java</span> <span class="token parameter variable">-jar</span> fca4j-cli-0.4.4.jar LATTICE jeux_de_donnee.csv <span class="token parameter variable">-i</span> CSV <span class="token parameter variable">-s</span> SEMICOLON <span class="token parameter variable">-g</span> ProgramingSkills/Lattice/ProgramingSkillsLattice.dot
+dot <span class="token parameter variable">-Tpdf</span> ProgramingSkills/Lattice/ProgramingSkillsLattice.dot <span class="token parameter variable">-o</span> ProgramingSkills/Lattice/ProgramingSkillsLattice.pdf
+dot <span class="token parameter variable">-Tpng</span> ProgramingSkills/Lattice/ProgramingSkillsLattice.dot <span class="token parameter variable">-o</span> ProgramingSkills/Lattice/ProgramingSkills.png
+</code></pre><p>This lattice shows how different programming skills are interconnected, helping identify clusters of skills that often appear together. For instance, a lattice could reveal that people who know Python often also have experience with libraries like Pandas or NumPy.</p>
+<p><img src="ProgramingSkills/Lattice/ProgramingSkills.png" alt="Concept Lattice"></p>
+<h3 id="2-iceberg-lattice-with-a-minimum-support-of-50">2. Iceberg Lattice with a Minimum Support of 50% </h3>
+<p>In some cases, we may want to focus on the most common skill combinations. The Iceberg lattice allows us to do this by filtering out infrequent combinations and retaining only those that meet a minimum threshold of 50% support:</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token function">java</span> <span class="token parameter variable">-jar</span> fca4j-cli-0.4.4.jar LATTICE <span class="token parameter variable">-a</span> ICEBERG jeux_de_donnee.csv <span class="token parameter variable">-p</span> <span class="token number">50</span> <span class="token parameter variable">-i</span> CSV <span class="token parameter variable">-s</span> SEMICOLON <span class="token parameter variable">-g</span> ProgramingSkills/Iceberg50/ProgramingSkillsiceberg.dot
+dot <span class="token parameter variable">-Tpdf</span> ProgramingSkills/Iceberg50/ProgramingSkillsiceberg.dot <span class="token parameter variable">-o</span> ProgramingSkills/Iceberg50/ProgramingSkillsiceberg.pdf
+dot <span class="token parameter variable">-Tpng</span> ProgramingSkills/Iceberg50/ProgramingSkillsiceberg.dot <span class="token parameter variable">-o</span> ProgramingSkills/Iceberg50/ProgramingSkillsiceberg.png
+</code></pre><p>The Iceberg lattice reveals the most popular and relevant combinations of programming skills, providing a simplified view of the dataset that focuses on the dominant patterns.</p>
+<p><img src="ProgramingSkills/Iceberg50/ProgramingSkillsiceberg.png" alt="Iceberg Lattice"></p>
+<h3 id="3-aoc-poset-attribute-object-chain-poset">3. AOC Poset (Attribute-Object Chain Poset) </h3>
+<p>The AOC poset simplifies the representation of the concept lattice by focusing on the essential chains between skills and categories. This is particularly useful when trying to identify core skills and how they relate to more advanced concepts:</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token function">java</span> <span class="token parameter variable">-jar</span> fca4j-cli-0.4.4.jar AOCPOSET jeux_de_donnee.csv <span class="token parameter variable">-i</span> CSV <span class="token parameter variable">-s</span> SEMICOLON <span class="token parameter variable">-g</span> ProgramingSkills/AOCposet/ProgramingSkillsaocposet.dot
+dot <span class="token parameter variable">-Tpdf</span> ProgramingSkills/AOCposet/ProgramingSkillsaocposet.dot <span class="token parameter variable">-o</span> ProgramingSkills/AOCposet/ProgramingSkillsaocposet.pdf
+dot <span class="token parameter variable">-Tpng</span> ProgramingSkills/AOCposet/ProgramingSkillsaocposet.dot <span class="token parameter variable">-o</span> ProgramingSkills/AOCposet/ProgramingSkillsaocposet.png
+</code></pre><p>The AOC poset helps us distill the skill progression paths, showing how acquiring a foundational skill leads to learning more specialized technologies.</p>
+<p><img src="ProgramingSkills/AOCposet/ProgramingSkillsaocposet.png" alt="AOC Poset"></p>
+<h3 id="4-dgbi-rule-basis">4. DGBI Rule Basis </h3>
+<p>The DGBI rule basis extracts the logical implications between programming skills. For example, knowing Python might imply familiarity with certain libraries or frameworks:</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token function">java</span> <span class="token parameter variable">-jar</span> fca4j-cli-0.4.4.jar RULEBASIS jeux_de_donnee.csv <span class="token parameter variable">-i</span> CSV <span class="token parameter variable">-s</span> SEMICOLON <span class="token parameter variable">-folder</span> ProgramingSkills/DGBI/
+</code></pre><p>These rules can be useful for generating recommendations for learners or for understanding which skills are likely to be gained together.</p>
+<h4 id="explanation-of-dgbi-rules-results">Explanation of DGBI Rules Results </h4>
+<p>Let's analyze some of the interesting rules generated by the DGBI algorithm:</p>
+<ol>
+<li>
+<p><code>&lt;3&gt; JavaScript =&gt; Python</code><br>
+This rule suggests that knowledge of JavaScript often implies knowledge of Python. This could be because both are popular languages for web development, and developers often learn both to handle both front-end (JavaScript) and back-end (Python) development.</p>
+</li>
+<li>
+<p><code>&lt;6&gt; Docker =&gt; Node.js</code><br>
+This rule indicates that proficiency in Docker is often accompanied by knowledge of Node.js. This makes sense as Docker is frequently used to containerize Node.js applications, making them easier to deploy and scale.</p>
+</li>
+<li>
+<p><code>&lt;2&gt; Swift =&gt; C#,HTML/CSS</code><br>
+This interesting rule suggests that Swift developers often have knowledge of C# and HTML/CSS. This could be because many mobile developers work on cross-platform projects, using Swift for iOS, C# for Windows or Unity game development, and HTML/CSS for web interfaces.</p>
+</li>
+<li>
+<p><code>&lt;1&gt; Rust =&gt; Python,SQL,Node.js</code><br>
+This rule implies that Rust developers often have a diverse skill set including Python, SQL, and Node.js. This could indicate that Rust is often learned by experienced developers who already have a broad programming background.</p>
+</li>
+<li>
+<p><code>&lt;5&gt; HTML/CSS =&gt; C#</code><br>
+This rule suggests that knowledge of HTML/CSS often comes with knowledge of C#. This could be due to the popularity of <a href="http://ASP.NET">ASP.NET</a> for web development, where C# is used alongside HTML/CSS.</p>
+</li>
+<li>
+<p><code>&lt;2&gt; Kotlin =&gt; Python,C#,HTML/CSS,Docker,Node.js</code><br>
+This rule indicates that Kotlin developers often have a broad skill set including Python, C#, HTML/CSS, Docker, and Node.js. This could be because Kotlin is often adopted by experienced developers who work on diverse projects.</p>
+</li>
+<li>
+<p><code>&lt;0&gt; Python,C#,SQL,Rust,Docker,Node.js =&gt; JavaScript,PHP,Kotlin,HTML/CSS,Swift</code><br>
+This complex rule suggests that developers with a diverse backend skill set (Python, C#, SQL, Rust, Docker, Node.js) often also have front-end and mobile development skills (JavaScript, PHP, Kotlin, HTML/CSS, Swift). This could indicate full-stack developers or tech leads with broad expertise.</p>
+</li>
+</ol>
+<p>These rules provide valuable insights into the relationships between different programming skills and how they are often acquired or used together. They can be particularly useful for:</p>
+<ul>
+<li>Curriculum design in tech education</li>
+<li>Career path planning for developers</li>
+<li>Skill gap analysis in tech teams</li>
+<li>Recommending additional skills for developers to learn</li>
+</ul>
+<p>It's important to note that these rules reflect patterns in the dataset and may not necessarily imply causation. The relationships could be due to various factors such as job market demands, common learning paths, or the complementary nature of certain technologies.</p>
+<h3 id="5-irreducible-objects-and-attributes">5. Irreducible Objects and Attributes </h3>
+<p>Irreducible elements highlight the core components of the skill set, i.e., the programming skills that cannot be broken down further or implied by any combination of other skills:</p>
+<p>Irreducible Objects:</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token function">java</span> <span class="token parameter variable">-jar</span> fca4j-cli-0.4.4.jar IRREDUCIBLE jeux_de_donnee.csv <span class="token parameter variable">-lobj</span> <span class="token parameter variable">-u</span> <span class="token parameter variable">-i</span> CSV <span class="token parameter variable">-s</span> SEMICOLON ProgramingSkills/ProgramingSkillsirrobjs.txt
+</code></pre><p>Irreducible Attributes:</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token function">java</span> <span class="token parameter variable">-jar</span> fca4j-cli-0.4.4.jar IRREDUCIBLE jeux_de_donnee.csv <span class="token parameter variable">-lattr</span> <span class="token parameter variable">-u</span> <span class="token parameter variable">-i</span> CSV <span class="token parameter variable">-s</span> SEMICOLON ProgramingSkills/ProgramingSkillsirrattrs.txt
+</code></pre><p>This analysis helps identify the indispensable skills that form the basis of the entire dataset.</p>
+<h3 id="6-clarification-and-reduction">6. Clarification and Reduction </h3>
+<p>Clarification is used to remove inconsistencies in the dataset, while reduction simplifies it by removing redundant information. The clarified and reduced dataset offers a more concise representation of the relationships between programming skills:</p>
+<p>Clarification:</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token function">java</span> <span class="token parameter variable">-jar</span> fca4j-cli-0.4.4.jar CLARIFY jeux_de_donnee.csv <span class="token parameter variable">-xa</span> <span class="token parameter variable">-xo</span> <span class="token parameter variable">-i</span> CSV <span class="token parameter variable">-s</span> SEMICOLON ProgramingSkills/ProgramingSkillsclarified.csv
+</code></pre><p>Reduction:</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token function">java</span> <span class="token parameter variable">-jar</span> fca4j-cli-0.4.4.jar REDUCE ProgramingSkills/ProgramingSkillsclarified.csv <span class="token parameter variable">-xa</span> <span class="token parameter variable">-xo</span> <span class="token parameter variable">-u</span> <span class="token parameter variable">-i</span> CSV <span class="token parameter variable">-s</span> SEMICOLON ProgramingSkills/ProgramingSkillsclarifiedreduced.csv
+</code></pre><p>After these operations, we obtain a clarified and reduced version of the dataset, which leads to simplified concept lattices and AOC posets.</p>
+<h3 id="7-clarified-and-reduced-lattice-and-aoc-poset">7. Clarified and Reduced Lattice and AOC Poset </h3>
+<p>Finally, we generate the concept lattice and AOC poset from the clarified and reduced dataset:</p>
+<p>Clarified and Reduced Lattice:</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token function">java</span> <span class="token parameter variable">-jar</span> fca4j-cli-0.4.4.jar LATTICE ProgramingSkills/ProgramingSkillsclarifiedreduced.csv <span class="token parameter variable">-i</span> CSV <span class="token parameter variable">-s</span> SEMICOLON <span class="token parameter variable">-g</span> ProgramingSkills/Reduced/Lattice/ProgramingSkillsclarifiedreduced.dot
+dot <span class="token parameter variable">-Tpdf</span> ProgramingSkills/Reduced/Lattice/ProgramingSkillsclarifiedreduced.dot <span class="token parameter variable">-o</span> ProgramingSkills/Reduced/Lattice/ProgramingSkillsclarifiedreduced.pdf
+dot <span class="token parameter variable">-Tpng</span> ProgramingSkills/Reduced/Lattice/ProgramingSkillsclarifiedreduced.dot <span class="token parameter variable">-o</span> ProgramingSkills/Reduced/Lattice/ProgramingSkillsclarifiedreduced.png
+</code></pre><p><img src="ProgramingSkills/Reduced/Lattice/ProgramingSkillsclarifiedreduced.png" alt="Clarified and Reduced Lattice"></p>
+<p>Clarified and Reduced AOC Poset:</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token function">java</span> <span class="token parameter variable">-jar</span> fca4j-cli-0.4.4.jar AOCPOSET ProgramingSkills/ProgramingSkillsclarifiedreduced.csv <span class="token parameter variable">-i</span> CSV <span class="token parameter variable">-s</span> SEMICOLON <span class="token parameter variable">-g</span> ProgramingSkills/Reduced/AOCposet/ProgramingSkillsclarifiedreduced.dot
+dot <span class="token parameter variable">-Tpdf</span> ProgramingSkills/Reduced/AOCposet/ProgramingSkillsclarifiedreduced.dot <span class="token parameter variable">-o</span> ProgramingSkills/Reduced/AOCposet/ProgramingSkillsclarifiedreduced.pdf
+dot <span class="token parameter variable">-Tpng</span> ProgramingSkills/Reduced/AOCposet/ProgramingSkillsclarifiedreduced.dot <span class="token parameter variable">-o</span> ProgramingSkills/Reduced/AOCposet/ProgramingSkillsclarifiedreduced.png
+</code></pre><p><img src="ProgramingSkills/Reduced/AOCposet/ProgramingSkillsclarifiedreduced.png" alt="Clarified and Reduced AOC Poset"></p>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
