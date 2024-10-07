@@ -1,2 +1,2 @@
-Static Analyzer project repository: xxx
-Test app repository: xxx
+Static Analyzer project repository: https://github.com/Neoxs/master_informatique_24_25/tree/main/HAI913I%20-%20Évolution%20et%20restructuration%20des%20logiciels/TP/01.%20Analyse%20statique
+Test app repository: https://github.com/swabah/Java-calculator
